@@ -1,69 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styleContact.css">
     <title>Contact</title>
 </head>
+
 <body>
     <img class="contact" src="images/contact.jpg" alt="background">
-   
-<div class="form-area">
-    <div class="container">
-        <div class="row single-form g-0">
-            <div class="col-sm-12 col-lg-6">
-                <div class="left">
-                   
-                    <h2><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contactez-nous pour</font></font></span> <br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> pour toutes vos reservations</font></font></h2>
+
+    <div class="form-area">
+        <div class="container">
+            <div class="row single-form g-0">
+                <div class="col-sm-12 col-lg-6">
+                    <div class="left">
+
+                        <h2><span>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Restaurant • Events</font>
+                                    <font style="vertical-align: inherit;"> Informations et Réservation: </font>
+                                </font>
+                            </span> </br>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">
+
+                                    (+212) 06 75 21 55 32
+                        
+                                    Email: contact@boheme-marrakech.com</font>
+                            </font>
+                        </h2>
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm-12 col-lg-6">
-                <div class="right">
-                   <i class="fa fa-caret-left"></i>
-                    <form>
-                      <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">votre nom</font></font></label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      </div>
-                      <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">votre prenom</font></font></label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      </div>
-                      <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Adresse e-mail</font></font></label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      </div>
-                      <div class="mb-3">
-                          
-                        <label for="exampleInputPassword1" class="form-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Message</font></font></label>
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              Dropdown button
+                <div class="col-sm-12 col-lg-6">
+                    <div class="right">
+                        <i class="fa fa-caret-left"></i>
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">votre nom</font>
+                                    </font>
+                                </label>
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">votre prenom</font>
+                                    </font>
+                                </label>
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Adresse e-mail</font>
+                                    </font>
+                                </label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+
+                                <label for="exampleInputPassword1" class="form-label">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Message</font>
+                                    </font>
+                                </label>
+                                <div class="dropdown">
+                                    <div class="col-lg-12">
+                                        <select name="pets" id="pet-select">
+                                            <option >--Please select your choice--</option>
+                                            <option >demande reservation</option>
+                                            <option >demande information</option>
+                                            <option >reclamation</option>
+                                            <option >d'autre question</option>
+
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                  
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="height: 150px;" ></textarea>
+                                  </div>
+
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Nous faire parvenir</font>
+                                </font>
                             </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item" href="#">Action</a></li>
-                              <li><a class="dropdown-item" href="#">Another action</a></li>
-                              <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                          </div> 
-                          <textarea type="password" class="form-control" id="exampleInputPassword1">
-                              
-                          </textarea>
-                      </div>
-                      <button type="submit" class="btn btn-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nous faire parvenir</font></font></button>
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-crossorigin="anonymous"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
