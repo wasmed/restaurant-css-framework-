@@ -1,6 +1,5 @@
-* {
-	background-color : #caad76 ;
-   
+*{
+    background-color: rgb(241, 187, 120);
 }
 .logo{
 	width:75px;
@@ -22,7 +21,7 @@
 	color: #fff;
 }
 .navbar-light .navbar-nav .nav-link {
-	color: #fff;
+	color: rgb(252, 248, 248);
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
 	color: #fff;
@@ -46,7 +45,7 @@ a:visited{
 	text-decoration: none;
 }
 a:hover{
-	color: #fff;
+	color: rgb(39, 84, 136);
 	text-decoration: none;
 }
 a:active{
