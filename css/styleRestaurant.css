@@ -1,9 +1,4 @@
-body {
-    background: #d6ab9c;
-    background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
-    background: linear-gradient(to right, #e8cbc0, #636fa4);
-    min-height: 100vh;
-}
+
 .social-link {
     width: 30px;
     height: 30px;
@@ -20,7 +15,7 @@ body {
 .social-link:hover, .social-link:focus {
     background: #ddd;
     text-decoration: none;
-    color: #555;
+    color: rgb(219, 176, 56);
 }
 .section-title {
 	text-align: center;

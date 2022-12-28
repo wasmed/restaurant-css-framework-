@@ -1,15 +1,173 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styleMenu.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Menu</title>
 </head>
+
 <body>
     <video autoplay loop muted plays-inline class="video">
-        <source src="images/Dunes - 16139.mp4" type="video/mp4">
-          
-     </video>
+        <source src="images/video/Dunes - 16139.mp4" type="video/mp4">
+
+    </video>
+    <!--navbar   -->
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="images/icone et logo/logo1.png" alt="logo">
+            </a>
+            <a class="navbar-brand" href="index.html">welcome</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="restaurant.html"
+                            target="_blank">Restaurant</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pictures.html" target="_blank">Galerie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Menu.html" target="_blank">Menu</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid px-5 py-5 mx-auto">
+        <div class="row d-flex mb-4 px-3">
+            <br>
+            <br>
+            <br>
+        </div>
+
+        <div class="row justify-content-between px-4">
+            <div class="block text-center">
+                <p class="my-3 prod-name">Menu Marocaine</p>
+                <img class="image" src="images/imagesCarte/pastilla.jpg">
+                <a href="menu/cartePlats.html" class="btn btn-info"> carte</a>
+                <div class="price">
+                    <h6 class="mb-0">39€</h6>
+                </div>
+            </div>
+            <div class="block text-center">
+                <p class="my-3 prod-name">Menu Français</p>
+                <img class="image" src="images/imagesCarte/platFrançais.jpg">
+                <a href="menu/cartePlats.html" class="btn btn-info">carte</a>
+                <div class="price">
+                    <h6 class="mb-0">55€</h6>
+                </div>
+            </div>
+            <div class="block text-center">
+                <p class="my-3 prod-name">Menu Berbère</p>
+                <img class="image" src="images/imagesCarte/tajine.jpg">
+                <a href="menu/cartePlats.html" class="btn btn-info">carte</a>
+                <div class="price">
+                    <h6 class="mb-0">45€</h6>
+                </div>
+            </div>
+            <div class="block text-center">
+                <p class="my-3 prod-name">Menu Essaouira-Mogador
+                </p>
+                <img class="image" src="images/imagesCarte/couscous.jpg">
+                <a href="menu/cartePlats.html" class="btn btn-info">carte</a>
+                <div class="price">
+                    <h6 class="mb-0">49€</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-between px-4">
+            <div class="block text-center">
+                <p class="my-3 prod-name">Dessert au choix (compris dans notre menu)</p>
+                <img class="image" src="images/imagesCarte/dessert.jpg">
+                <a href="menu/carteBoissons.html" class="btn btn-info">carte</a>
+                <div class="price">
+                    <h7 class="mb-0">gratuit</h7>
+                </div>
+            </div>
+            <div class="block text-center">
+                <p class="my-3 prod-name">Boissons au choix(non compris dans notre menu)</p>
+                <img class="image" src="images/imagesCarte/théMarocaine.jpg">
+                <a href="menu/carteBoissons.html" target="_blank" class="btn btn-info">carte</a>
+                <div class="price">
+                    <h6 class="mb-0"></h6>
+                </div>
+            </div>
+            <div class="block text-center">
+                <p class="my-3 prod-name">Menu Poisson( Uniquement sur réservation)</p>
+                <img class="image" src="images/imagesCarte/platPoisson.jpg">
+                <a href="menu/cartePlats.html" class="btn btn-info">carte</a>
+                <div class="price">
+                    <h6 class="mb-0">59€</h6>
+                </div>
+            </div>
+            <div class="block text-center">
+                <p class="my-3 prod-name">Mechouis, grillades de viandes à l’orientale</p>
+                <img class="image" src="images/imagesCarte/grillade.jpg">
+                <a href="menu/cartePlats.html" class="btn btn-info">carte</a>
+                <div class="price">
+                    <h6 class="mb-0">59€</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container" style="padding: 80px 0;" align="center">
+                <a href="#">
+                    <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-pinterest fa-lg white-text"></i>
+                </a>
+            </div>
+            <div style="background: #004872;">
+                <p style="color: #91BEC2; padding: 15px 0;" align="center">
+                    &copy; 2022 Copyright: <a href="mailto:wasmed@gmail.com">Created By: wasmed</a>
+                </p>
+            </div>
+        </footer>
+
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/menu.js"></script>
+
 </body>
+
 </html>
