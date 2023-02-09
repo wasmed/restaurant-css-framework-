@@ -1,0 +1,14 @@
+Participate
+    -participant
+    -card
+   
+
+    ------instance--------------------
+    -add()
+    -delete()
+    -getCards()
+    
+    
+    ----------static-----------------------
+    -get(participant,card)
+   

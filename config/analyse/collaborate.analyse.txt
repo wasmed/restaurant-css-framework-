@@ -1,0 +1,14 @@
+Collaborate
+    -board
+    -collaborator
+   
+
+    ------instance--------------------
+    -add()
+    -delete()
+    -getBoard()
+    
+    
+    ----------static-----------------------
+    -get(collaborator,baord)
+   

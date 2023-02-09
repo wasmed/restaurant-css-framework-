@@ -3,24 +3,20 @@
 	background-color : #caad76 ;
    
 }
-img{
-    filter: grayscale(20%);
-}
+
 
 .logo{
-	width:75px;
-	height:75px;
+	width:65px;
+	height:65px;
 }
 
-.bg-light {
-	background-color: transparent !important;
-}
+
 .carousel-item {
 	height: 100vh;
 	min-height: 300px;
 }
 .carousel-caption {
-	bottom: 220px;
+	bottom: 380px;
 }
 .carousel-caption h5 {
 	font-size: 45px;
@@ -73,12 +69,7 @@ img{
 .w-100 {
 	height: 100vh;
 }
-.navbar-toggler {
-	padding: 1px 5px;
-	font-size: 18px;
-	line-height: 0.3;
-	background: #fff;
-}
+
 
 a:link{
 	color: #fff;

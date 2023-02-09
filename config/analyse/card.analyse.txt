@@ -1,0 +1,32 @@
+Card
+    -id
+    -name
+    -body
+    -position
+    -Column
+    -Author
+    -modifiedAt
+    -creteddA
+    -dueDate
+
+    ------instance--------------------
+    -add()
+    -update()
+    -delete()
+    -getUser()
+    -getColumn()
+    -getByPositionAndColumn(int pos)
+    -getParticipants()
+    -getNoAParticipants() 
+    -moveDown()
+    -moveUp()
+    -moveLeft()
+    -moveRight()
+    - createdAt()
+    - modifiedAt()
+    
+    ----------static-----------------------
+    -get(criteria)
+    -validate($title)
+    -validate_unicity($title)
+  

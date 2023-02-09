@@ -1,0 +1,27 @@
+User
+    -id
+    -fullName
+    -password
+    -mail
+    -role
+
+    ------------instance-----------
+    -add()
+    -update()
+    -delete()
+    -getBoards()
+    -getOtherBoards()
+    -getCards()
+    -validate()
+    -getBoardCollaborators()
+     getCardParticipants()
+
+    ----------------static--------------
+    -get(criteria)
+    -validate_login($Mail, $password)
+    -validate_password($password)
+    -validate_passwords($password, $password_confirm)
+    - validate_unicity1($FullName)
+    - validate_unicity2($Mail)
+    - check_password($clear_password, $hash)
+    

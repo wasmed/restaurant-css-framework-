@@ -1,0 +1,28 @@
+Column 
+      -id
+      -name
+      -position
+      -board
+      -modifiedAt
+      -createdAt
+
+      --------instance-------------
+       -add()
+       -update()
+       -delete()
+       -getCards()
+       -getNumberCard()
+       -getBoard()
+       -getByPositionAndBoard(int pos)
+       -moveLeft()
+       -moveRight()
+       - createdAt()
+       - modifiedAt()
+
+       -------static------------------
+       -get(criteria)
+       -validate($title)
+       -validate_unicity($title)
+     
+    
+

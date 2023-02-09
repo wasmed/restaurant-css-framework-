@@ -1,0 +1,25 @@
+Board
+     -id
+     -name
+     -owner
+     -modifiedAt
+     -createdAt
+
+     ----instance---------------
+       -add()
+       -update()
+       -delete()
+       -getboards()
+       -getColumns()
+       -getNumberColumn()
+       -getUser()
+       - getCollaborators()
+       - getNoACollaborators()
+       - createdAt()
+       - modifiedAt()
+
+       ------static----------------------
+      - getBoardOtherUser(user)
+      -  get ($criteria)
+      - validate($title)
+      - validate_unicity($title)
