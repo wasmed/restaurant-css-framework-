@@ -1,11 +1,11 @@
 # restaurant-css-framework-
 
-Ce projet est un site web pour un restaurant utilisant Bootstrap pour la mise en page. Il comporte 4 pages principales :
+## Ce projet est un site web pour un restaurant utilisant Bootstrap pour la mise en page. Il comporte 4 pages principales :
 
-Page d'accueil
-Page de contact
-Page de galerie
-Page de menu
+## Page d'accueil
+## Page de contact
+## Page de galerie 
+## Page de menu
 La page d'accueil présente une brève description du restaurant ainsi que des informations sur ses heures d'ouverture et son emplacement.
 
 La page de contact permet aux clients de soumettre leurs commentaires et leurs questions. Le formulaire de contact est connecté à une base de données pour stocker les données soumises.
